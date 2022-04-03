@@ -50,6 +50,9 @@
         dots: false,
         pagination: true,
         autoHeight: false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
 //        autoHeightClass: 'owl-height',
         navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
         responsive:{

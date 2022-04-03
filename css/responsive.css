@@ -1,6 +1,24 @@
 /* Large desktop :1920px. */
 @media (min-width: 1920px) {   
 
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      
 }
 
 /* Laptop Device :1366px. */
@@ -8,11 +26,42 @@
 
 
 
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
 }
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
 }
 
@@ -20,11 +69,47 @@
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+      }
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+      }
     /*.slider-content-area {
         position: absolute;
         top: 5%;
@@ -63,14 +148,16 @@
         position: absolute;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .owl-next {
         position: absolute;
         right: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .testimonial-area .owl-prev {
@@ -78,40 +165,76 @@
         bottom: 5px;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
     .testimonial-area .owl-next{
         position: absolute;
         right: 20%;
         bottom: 5px;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;        
     }
-    div#news-slider3 .owl-prev {
+
+    div#featured-page .owl-prev {
         position: absolute;
         bottom: -20px;
-        left: 10%;
+        left: 15%;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 50px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: black;
         line-height: 1.7;
         text-align: center;
-        background: #ffffff;
+        background: none;
         padding: 10px;
     }
 
-    div#news-slider3 .owl-next {
+    div#featured-page .owl-next {
         position: absolute;
         bottom: -20px;
-        right: 10%;
+        right: 15%;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 50px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: black;
         line-height: 1.7;
         text-align: center;
-        background: #ffffff;
+        background: none;
+        padding: 10px;
+    }
+
+
+    div#news-slider .owl-prev {
+        position: absolute;
+        bottom: -20px;
+        left: 15%;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Roboto";
+        /* color: #ffffff70; */
+        color: white;
+        line-height: 1.7;
+        text-align: center;
+        background: none;
+        padding: 10px;
+    }
+
+    div#news-slider .owl-next {
+        position: absolute;
+        bottom: -20px;
+        right: 15%;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Roboto";
+        /* color: #ffffff70; */
+        color: white;
+        line-height: 1.7;
+        text-align: center;
+        background: none;
         padding: 10px;
     }
 
@@ -200,6 +323,25 @@
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+      }
+
     /*.slider-content-area {
         position: absolute;
         top: 5%;
@@ -239,7 +381,8 @@
         bottom: 3px;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .owl-next {
@@ -247,35 +390,68 @@
         bottom: 3px;
         right: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
-
-    div#news-slider3 .owl-prev {
+    div#featured-page .owl-prev {
         position: absolute;
         bottom: -20px;
         left: 10%;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 50px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: black;
         line-height: 1.7;
         text-align: center;
-        background: #ffffff;
+        background: none;
         padding: 10px;
     }
 
-    div#news-slider3 .owl-next {
+    div#featured-page .owl-next {
         position: absolute;
         bottom: -20px;
         right: 10%;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 50px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: rgb(204, 204, 204); */
+        color: black;
         line-height: 1.7;
         text-align: center;
-        background: #ffffff;
+        background: none;
+        padding: 10px;
+    }
+
+
+    div#news-slider .owl-prev {
+        position: absolute;
+        bottom: -20px;
+        left: 10%;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Roboto";
+        /* color: #ffffff70; */
+        color: white;
+        line-height: 1.7;
+        text-align: center;
+        background: none;
+        padding: 10px;
+    }
+
+    div#news-slider .owl-next {
+        position: absolute;
+        bottom: -20px;
+        right: 10%;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Roboto";
+        /* color: rgb(204, 204, 204); */
+        color: white;
+        line-height: 1.7;
+        text-align: center;
+        background: none;
         padding: 10px;
     }
     div#news-slider3 .owl-dots {
