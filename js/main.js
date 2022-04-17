@@ -3,8 +3,9 @@
 
     $('.news-slider').owlCarousel({
         loop:true,
-        margin:10,
+        margin:100,
         nav:true,
+        center : true,
         autoHeight:true,
         autoHeightClass: 'owl-height',
         
@@ -120,4 +121,19 @@ function initMap() {
         document.getElementById('map'), {zoom: 4, center: uluru});
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
-    }
+}
+
+function changeText() {
+  var x = document.getElementById("textChange1");
+  if (x.innerHTML === "DREAMS") {
+    x.innerHTML = "DO YOU";
+  } else if (x.innerHTML === "DO YOU"){
+    x.innerHTML = "CHEOSNUN";
+  } else if (x.innerHTML === "CHEOSNUN"){
+    x.innerHTML = "SOJU";
+  } else if (x.innerHTML === "SOJU"){
+    x.innerHTML = "ALKOHOL";
+  } else {
+    x.innerHTML = "DREAMS";
+  }
+}
