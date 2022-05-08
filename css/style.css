@@ -44,6 +44,7 @@ p.colorfullText {
 
 body, html {
   height: 100%;
+  
   font-family: 'Antic';
 }
 
@@ -195,7 +196,7 @@ iframe {
     /* background: #dddddd38; */
     color: #fff;
     font-size: 30px;
-    left: 10%;
+    left: 25%;
     right: 10%;
 }
 
@@ -204,6 +205,10 @@ iframe {
   height: 100%;
 }
 
+.slider-area, .main-slider-no-loop {
+  position: relative;
+  height: 100%;
+}
 
 .slide-content .default-btn{
   font-family: 'Roboto';
@@ -216,6 +221,10 @@ iframe {
 }
 
 .main-slider div:not(.owl-nav):not(.owl-prev):not(.owl-prev):not(.owl-next) {
+  height: 100%;
+}
+
+.main-slider-no-loop div:not(.owl-nav):not(.owl-prev):not(.owl-prev):not(.owl-next) {
   height: 100%;
 }
 
@@ -1835,3 +1844,30 @@ section#sectionMarketplace .shapes p{
   background-image: url(../img/slider/carousel3.jpg);
 }
 
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: red;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* .line {
+  width: 2px;
+  background-color: hsla(0,0%,100%,.3);
+  height: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1
+} */

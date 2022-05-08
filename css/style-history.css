@@ -1,0 +1,22 @@
+section,body, html {
+    height: 100%;
+    background-image: url(../img/slider/banner1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Antic';
+    
+}
+
+
+.line {
+    width: 2px;
+    background-color: red;
+    height: 100%;
+    
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1 
+}
+
