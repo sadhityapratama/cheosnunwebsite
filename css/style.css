@@ -10,6 +10,16 @@ Author URI: https://cemreworks.com
 * ==========================================
 */
 
+@font-face {
+    font-family: ariblk;
+    src: url(../fonts/ariblk.ttf);
+}
+
+@font-face {
+    font-family: LeelUIsl;
+    src: url(../fonts/LeelUIsl.ttf);
+}
+
 
 .fixedArea {
     position: fixed;
@@ -45,12 +55,12 @@ p.colorfullText {
 body, html {
   height: 100%;
   
-  font-family: 'Antic';
+  font-family: 'LeelUIsl';
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: 'Antic';
+  font-family: 'LeelUIsl';
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -76,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-  font-family: 'Antic';
+  font-family: 'LeelUIsl';
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -172,7 +182,7 @@ iframe {
 
 
 .slide-content h2{
-    font-family: 'Archivo';
+    font-family: 'ariblk';
     margin-bottom: 20px;
     font-size: 52px;
     visibility: hidden;
@@ -305,7 +315,7 @@ iframe {
   margin-top: 40px;
   margin-bottom: 15px;
   font-size: 24px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   position: relative;
 }
 
@@ -367,7 +377,7 @@ section#section2 .maintext span{
 
 section#section2 .maintext h2 {
   font-size: 70px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -424,7 +434,7 @@ section#section2 .shapes p{
 .section-title h2 {
   margin-top: 30px;
   font-size: 70px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -491,7 +501,7 @@ img.imgback:hover {
 
 .post-slide .post-description {
   font-size: 18px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(255, 255, 255);
   line-height: 1.1;
   text-align: center;
@@ -610,7 +620,7 @@ div#news-slider .owl-next {
 
 .post-slide{margin-left: 10px;margin-right: 10px;background:none;margin-bottom:1em}
 .post-slide .post-img{position:relative;margin-bottom:0px;text-align: center;}
-.post-slide .post-img img{width:70%;height:auto;margin-left: 30px;margin-right: 30px;} 
+.post-slide .post-img img{width:100%;height:auto;margin-left: 0px;margin-right: 50px;} 
 
 .post-img:hover{
   -o-transition:.5s;
@@ -808,7 +818,7 @@ div#news-slider .owl-next {
 
 #section4  h2 {
   font-size: 70px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: #ffffff;
   line-height: 1;
   text-align: center;
@@ -942,7 +952,7 @@ div#news-slider .owl-next {
 
 .content h2 {
   font-size: 60px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -991,7 +1001,7 @@ div#news-slider .owl-next {
 }
 .blog-section-title h2{
     font-size: 70px;
-    font-family: 'Archivo';
+    font-family: 'ariblk';
     color: rgb(68, 68, 68);
     line-height: 1;
     text-align: center;
@@ -1004,7 +1014,7 @@ div#news-slider .owl-next {
 
 .blog-section-date .month{
     font-size: 60px;
-    font-family: 'Archivo';
+    font-family: 'ariblk';
     color: rgb(221, 221, 221);
     line-height: 0.85;
 }
@@ -1175,7 +1185,7 @@ div#news-slider .owl-next {
 
   .contact100-form-title h2{
       font-size: 70px;
-      font-family: 'Archivo';
+      font-family: 'ariblk';
       color: rgb(68, 68, 68);
       line-height: 1;
       text-align: center;  
@@ -1289,7 +1299,7 @@ div#news-slider .owl-next {
     height: 50px;
     background-color: #F70000;
     border-radius: 25px;
-    font-family: 'Antic';
+    font-family: 'LeelUIsl';
     font-size: 16px;
     color: #fff;
     line-height: 1.2;
@@ -1373,7 +1383,7 @@ div#news-slider .owl-next {
     right: 2px;
     pointer-events: none;
   
-    font-family: 'Antic';
+    font-family: 'LeelUIsl';
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
@@ -1420,7 +1430,7 @@ div#news-slider .owl-next {
 
   
   .contact100-more {
-    font-family: 'Antic';
+    font-family: 'LeelUIsl';
     font-size: 14px;
     color: #999999;
     line-height: 1.5;
@@ -1579,7 +1589,7 @@ div#news-slider .owl-next {
 }
 .addess-description h2{
   font-size: 30px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(68, 68, 68);
   margin-bottom: 15px;
   color: rgb(255, 255, 255);
@@ -1703,7 +1713,7 @@ li.address-section .fa{
 
 
 .single-widget-description {
-  font-family: 'Antic';
+  font-family: 'LeelUIsl';
   font-size: 14px;
   line-height: 1;
   color: #666666;
@@ -1769,7 +1779,7 @@ section#sectionMarketplace .maintext span{
 
 section#sectionMarketplace .maintext h2 {
   font-size: 70px;
-  font-family: 'Archivo';
+  font-family: 'ariblk';
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -1861,6 +1871,10 @@ section#sectionMarketplace .shapes p{
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+}
+
+.footer-area {
+  background-color: #0F6CFF;
 }
 
 /* .line {
