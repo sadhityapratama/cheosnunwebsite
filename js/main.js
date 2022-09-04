@@ -4,7 +4,7 @@
     $('.news-slider').owlCarousel({
         loop:true,
         margin:100,
-        nav:true,
+        nav:false,
         center : true,
         autoHeight:true,
         autoHeightClass: 'owl-height',
@@ -25,7 +25,7 @@
     $('.testimonial-area').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         dots: false,
         autoHeight:true,
         pagination: true,
@@ -71,7 +71,7 @@
     $('.main-slider').owlCarousel({
         loop:true,
         margin:0,
-        nav:true,
+        nav:false,
         dots: false,
         pagination: true,
         autoHeight: false,
