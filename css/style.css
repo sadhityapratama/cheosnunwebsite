@@ -1693,18 +1693,23 @@ li.address-section .fa{
 .single-widget h3{
     font-size: 18px;
     font-family: "Roboto";
-    color: rgb(51, 51, 51);
+    /* color: rgb(51, 51, 51); */
+    color: black;
     line-height: 1.4;
     text-align: left;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+.single-widget p{
+  color: white;
+}
 
 
 .lock{
   font-weight: bold;
-  border-bottom: 2px solid #F70000;
+  /* border-bottom: 2px solid #F70000; */
+  border-bottom: 2px solid #ffffff;
   width: 40px;
   height: 3px;
   margin-bottom: 10px;
@@ -1717,6 +1722,7 @@ li.address-section .fa{
   font-size: 14px;
   line-height: 1;
   color: #666666;
+  /* color: white; */
 }
 
 .footer-section .footer-icon {
