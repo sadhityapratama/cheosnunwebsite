@@ -8,6 +8,7 @@
         center : true,
         autoHeight:true,
         autoHeightClass: 'owl-height',
+        autoplay : true,
         
         responsive:{
             0:{
