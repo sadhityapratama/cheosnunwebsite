@@ -1851,13 +1851,13 @@ section#sectionMarketplace .shapes p{
 */
 
 .single-slide1{
-  background-image: url(../img/slider/carousel1.jpg);
+  background-image: url(../img/slider/banner1.png);
 }
 .single-slide2{
-  background-image: url(../img/slider/carousel2.jpg);
+  background-image: url(../img/slider/banner2.png);
 }
 .single-slide3{
-  background-image: url(../img/slider/carousel3.jpg);
+  background-image: url(../img/slider/banner3.png);
 }
 
 /* The actual timeline (the vertical ruler) */

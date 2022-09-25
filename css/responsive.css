@@ -78,14 +78,54 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-image: url(../img/slider/carouselmobile2.JPG); */
       }
       .single-slide3{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+        background-image: url(../img/slider/test.jpg);
       }
+
+      .blog-section-description h2{
+        margin-top: 40px;
+        font-size: 22px;
+        font-family: "Roboto";
+        color: rgb(51, 51, 51);
+        line-height: 1.4;
+        text-align: left;
+        font-weight: bold;
+      
+    }
+
+      .section-title h3{
+        margin-top: 90px;
+        font-weight: 800;
+        line-height: 1.7;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        
+        }
+      
+      .section-title h2 {
+        margin-top: 30px;
+        font-size: 50px;
+        font-family: 'ariblk';
+        color: rgb(68, 68, 68);
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      section#sectionMarketplace .maintext h2 {
+        font-size: 50px;
+        font-family: 'ariblk';
+        color: rgb(68, 68, 68);
+        line-height: 1;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
+
 }
 
  
@@ -102,14 +142,55 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-image: url(../img/slider/carouselmobile2.JPG); */
+        
       }
       .single-slide3{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+        background-image: url(../img/slider/test.jpg);
       }
+
+      .blog-section-description h2{
+        margin-top: 40px;
+        font-size: 22px;
+        font-family: "Roboto";
+        color: rgb(51, 51, 51);
+        line-height: 1.4;
+        text-align: left;
+        font-weight: bold;
+      
+    }
+
+      .section-title h3{
+        margin-top: 90px;
+        font-weight: 800;
+        line-height: 1.7;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        
+        }
+      
+      .section-title h2 {
+        margin-top: 30px;
+        font-size: 50px;
+        font-family: 'ariblk';
+        color: rgb(68, 68, 68);
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      section#sectionMarketplace .maintext h2 {
+        font-size: 50px;
+        font-family: 'ariblk';
+        color: rgb(68, 68, 68);
+        line-height: 1;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
+
     /*.slider-content-area {
         position: absolute;
         top: 5%;
