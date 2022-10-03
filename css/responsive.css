@@ -83,8 +83,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/test.jpg);
+        /* background-image: url(../img/slider/test.jpg); */
       }
+
 
       .blog-section-description h2{
         margin-top: 40px;
@@ -148,7 +149,8 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/test.jpg);
+        /* background-image: url(../img/slider/test.jpg); */
+
       }
 
       .blog-section-description h2{
